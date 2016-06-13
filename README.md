@@ -7,6 +7,7 @@ If cons or both is set and no species tree is satisfied, the script will test wh
 If sat/cons is met, user can output a gene tree meeting the requirements (in ascii and/or newick).
 
 --genes=g1;;g2;;... : list of distinct gene names, all separated by ;;
+
 --speciestree=[newick] : newick string (terminated by ;) having each leaf labeled by a distinct species name
 --genespecies=g1:s1;;g2:s2;;... : gene to species mapping.  Each mapping is separated by ';;'.  A mapping has the form GENE_NAME:SPECIES_NAME.  GENE_NAME must be in genes, SPECIES_NAME in a leaf of speciesTree (if speciesTree is specified)
 --orthologs=g1:g2;;g1:g3;;g2:g4;;... : all ortholog gene pairs, separated by ':'.  A pair has the form GENE_NAME1:GENE_NAME2
